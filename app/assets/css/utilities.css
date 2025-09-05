@@ -1,0 +1,51 @@
+/* Essential CSS Utility Classes */
+/* Only including utilities that are commonly needed */
+
+/* Screen Reader Only - for accessibility */
+.sr-only {
+  position: absolute !important;
+  inline-size: 1px !important;
+  block-size: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Display utilities - commonly needed */
+.hidden { display: none !important; }
+.block { display: block !important; }
+.inline-block { display: inline-block !important; }
+.flex { display: flex !important; }
+.grid { display: grid !important; }
+
+/* Text alignment */
+.text-center { text-align: center !important; }
+.text-left { text-align: start !important; }
+.text-right { text-align: end !important; }
+
+/* Common spacing */
+.m-0 { margin: 0 !important; }
+.p-0 { padding: 0 !important; }
+
+/* Focus utilities for accessibility */
+.focus-outline:focus {
+  outline: var(--border-width-thick) solid var(--color-primary) !important;
+  outline-offset: var(--spacing-xs) !important;
+}
+
+/* Print utilities */
+@media print {
+  .no-print { display: none !important; }
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .hidden-mobile { display: none !important; }
+}
+
+@media (min-width: 769px) {
+  .hidden-desktop { display: none !important; }
+}
