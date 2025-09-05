@@ -1,5 +1,11 @@
 # Challenge Desarrollador Frontend Los Heroes
 
+TODO posibles mejoras:
+
+* Utilizar typescript.
+* Agregar pruebas unitarias.
+* Mejorar organización de css.
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
